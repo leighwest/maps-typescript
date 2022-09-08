@@ -1,5 +1,7 @@
-import { User } from './User';
+/// <reference types="@types/google.maps" />
 
-const user = new User();
+// import { User } from './User';
 
-console.log(user.name);
+import { CustomMap } from './CustomMap';
+
+new CustomMap('map');
